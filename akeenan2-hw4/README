@@ -1,0 +1,21 @@
+1.
+Test on the development data:
+python3 hmm.py --test data/dev
+perl conlleval.pl < data/dev.out
+
+2.
+python3 sp.py --test data/dev
+(to print out the FB1 score after each iteration, add the -d flag)
+perl conlleval.pl < data/dev.out
+
+3.
+modifications:
+To run the associated modification, substitute the star with a number:
+python3 sp_mod*.py
+(to print out the FB1 score after each iteration, add the -d flag)
+perl conlleval.pl < data/dev.out
+
+- modification 1: always update observed word in the model
+- modification 2: bad trigram
+- modification 3: train on the testing data too
+- modification 4: lowercase
