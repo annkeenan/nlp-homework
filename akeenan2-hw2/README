@@ -1,0 +1,17 @@
+Part 2
+======
+
+To view the first 10 decoded lines, run:
+
+  python3 test.py -d
+
+To run against the entire test file:
+
+  python3 test.py -d -f data/decode-test-2.new
+
+Part 3
+======
+
+Run:
+
+  python3 test.py -t -f data/train-test-2.new
