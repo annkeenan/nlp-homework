@@ -1,0 +1,22 @@
+1a. Print five most frequent rules
+  python3 grammar.py -f
+
+1b. Print five highest probability rules + the entire grammar
+  python3 grammar.py -p
+
+2a. Print out the first five lines parsed from dev.strings
+  python3 cfg.py -p
+
+2b. Plot the parse time vs the sentence length
+  python3 cfg.py -g
+
+2c. Run the evalb.py script on all parsed sentences from dev.strings
+  ./original.sh
+
+3a. Run the modification scripts on dev.strings
+  ./mod-1.sh
+  ./mod-2.sh
+  ./mod-3.sh
+
+3b. Run the best parser on test.strings
+  ./best.sh
