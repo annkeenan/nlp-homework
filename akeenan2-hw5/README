@@ -1,0 +1,20 @@
+Improve runtime by substituting python3 with pypy3 if possible.
+
+To run the IBM Model 1:
+
+python3 ibm_model1.py
+python3 align-f1.py data/train.zh-en.out data/train.align
+
+To run the unmodified True Model 1:
+
+python3 true_model1.py
+python3 bleu.py data/test.out data/test.en
+
+To run the modified True Model 1:
+
+python3 true_model2.py
+python3 bleu.py data/test.mod2.out data/test.en
+
+To test the pre-run True Model 1:
+
+python3 bleu.py data/test.mod.out data/test.en

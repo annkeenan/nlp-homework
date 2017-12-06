@@ -18,3 +18,7 @@ In this assignment you will build and improve a simple parser trained from the A
 
 In this assignment you will build and improve a named entity recognizer for Tweets. This was the shared task for WNUT 2016. This is a very difficult task, with human performance in the upper 60%'s and machine performance ranging from 20% to 50%.
 
+#### **Homework 5**
+
+In 2005, a blog post went viral that showed a bootleg copy of Revenge of the Sith with its Chinese version translated (apparently by low-quality machine translation) back into English. Can you do better?
+
